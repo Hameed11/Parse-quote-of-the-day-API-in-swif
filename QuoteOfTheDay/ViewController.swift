@@ -20,8 +20,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
         fetchQuoteJson()
     }
     
@@ -97,26 +95,3 @@ class ViewController: UIViewController {
 
 }
 
-
-//extension ViewController: UITableViewDelegate, UITableViewDataSource {
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return quotes.count
-//    }
-//    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        
-//        if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? QuoteTableViewCell {
-//            let obj = quotes[indexPath.row]
-//            
-//            cell.updateUI(quote: obj)
-//            
-//            return cell
-//            
-//        } else {
-//            return UITableViewCell()
-//        }
-//    }
-//    
-//    
-//    
-//}
